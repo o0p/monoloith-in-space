@@ -1,0 +1,25 @@
+body {
+    margin:0;
+    padding:0;
+    overflow: hidden;
+  }
+  canvas{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+  }
+  .mono {
+    position: relative;
+  }
+
+  img{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 97vh;
+    z-index:0;
+    left:12px;
+    top:10px;
+  }
